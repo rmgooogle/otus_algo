@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class LuckyTicketsTest {
     public static void main(String[] args) throws IOException {
-        String absPath = "C:\\Users\\Игорь\\IdeaProjects\\otus_algo\\otusAlgo\\src\\lect2_luckyTickets\\tickets\\";
+        String absPath = "C:\\Users\\Игорь\\IdeaProjects\\otus_algo\\otus\\src\\lect2_luckyTickets\\tickets\\";
 
 //      тестирование варианта с подсчетом количества сумм n-чисел
         for (int i = 0; i < 10; i++) {
