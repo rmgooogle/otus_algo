@@ -15,11 +15,6 @@ public class PowLickyTickets {
 
     public Long getLuckyTicketsCount(int size) {
         int[] sumArray;
-
-        if (size == 1) {
-            return (long) 10;
-        }
-
         sumArray = getFirstArray();
         for (int i = 2; i < size + 1; i++) {
             sumArray = returnSummArray(sumArray, i);
