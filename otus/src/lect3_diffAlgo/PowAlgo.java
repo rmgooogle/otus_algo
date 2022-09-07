@@ -34,4 +34,17 @@ public class PowAlgo {
         }
         return powResult;
     }
+
+    double getMultiplicationPow2(double numb, long degree){
+        double d = numb;
+        double p = 1;
+        while (degree>1){
+            degree /= 2;
+            d *= d;
+            if (!(degree%2==0)){
+                p *= d;
+            }
+        }
+        return p;
+    }
 }

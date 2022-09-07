@@ -5,6 +5,7 @@ public class TestAlgoritms {
         PowAlgo powAlgo = new PowAlgo();
         System.out.println( "result of iterative:: " + powAlgo.getIterativePow(1.002, 1000));
         System.out.println( "result OF Multi: " + powAlgo.getMultiplicationPowTime(1.002, 1000));
+        System.out.println( "result OF Multi v2: " + powAlgo.getMultiplicationPow2(1.002, 1000));
 
         System.out.println("------FiBo-------");
         Fibo fibo = new Fibo();
