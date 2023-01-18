@@ -19,6 +19,7 @@ public class HashTable <K,V> {
             throw new IllegalArgumentException("Illegal capacity: " + initialCapacity);
         }
         entries = new HashEntry[initialCapacity];
+        threshold = (int) (initialCapacity * LOAD_FACTOR);
         size = 0;
     }
 
